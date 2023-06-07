@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+#container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+#sidebar {
+  width: 10%;
+  background-color: #191718;
+}
+
+#sidebar ul {
+  list-style: none;
+}
+
+#sidebar ul li a {
+  color: #aaaaaa;
+  padding: 14px 91px 11px 16px;
+  text-decoration: none;
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+}
+#container-content {
+  margin-left: 129px;
+  margin-right: 129px;
+}
+
+#logo-ncc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#content-description {
+  background-color: #efefef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#container-content-description {
+    padding: 39px 269px;
+    text-align: center;
+}
+
+#title-content-description {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
